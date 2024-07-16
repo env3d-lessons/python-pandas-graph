@@ -21,13 +21,15 @@ to your web directory.  i.e.
 
 ```console
 $ ls
-graph.py  README.md
-$ python3 graph.py asdf
-Error in receiving stock symbol
+example.png  graph.py  README.md
+$ python3 graph.py
+Error: Need to provide a ticker symbol
+$ python3 graph.py RDD
+Error: cannot get data from symbol
 $ python3 graph.py MSFT
-$ ls
-graph.py  MSFT.png  README.md
-$ 
+@env3d ➜ /workspaces/python-pandas-graph (main) $ ls
+example.png  graph.py  MSFT.png  README.md
+@env3d ➜ /workspaces/python-pandas-graph (main) $ 
 ```
 
 HINT: if you choose to write a pure python script, but you still want to call some shell commands, following this link: https://ioflood.com/blog/python-run-shell-command/  

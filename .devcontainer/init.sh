@@ -8,4 +8,4 @@ sudo a2enmod cgid
 sudo service apache2 start
 pip install pytest
 pip install pandas
-
+pip install matplotlib

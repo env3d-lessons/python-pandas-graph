@@ -19,4 +19,11 @@ Using the above knowledge, create a script (or a combination of scripts), stock_
 that takes one argument, the stock ticker symbol, and outputs an image called stock.png 
 to your web directory.  i.e.
 
-
+```console
+$ ls
+graph.py  README.md
+$ python3 graph.py MSFT
+$ ls
+graph.py  MSFT.png  README.md
+$ 
+```
